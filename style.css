@@ -194,6 +194,9 @@ header {
 .card p {
   font: 0.9rem var(--font-body);
   color: rgb(124, 122, 122);
+  /* these two lines of code are important */
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 .card_mail {
